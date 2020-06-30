@@ -19,11 +19,11 @@ a.bg-light-gray:focus, a.bg-light-gray:hover, button.bg-light-gray:focus, button
 }
 
 .bg-translucent-white {
-  background-color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .bg-translucent-warning {
-  background-color: rgba(255, 193, 7, 0.75) !important;
+  background-color: rgba(255, 193, 7, 0.7) !important;
 }
 
 /* Custom text colors */
