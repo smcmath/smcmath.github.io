@@ -44,3 +44,19 @@ a.text-light-blue:focus, a.text-light-blue:hover {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+
+/* Custom background image */
+.bg-beach {
+  background-image: url("../../upload/Beach.jpg");
+  width: 100% !important;
+  height: 75vw !important;
+  margins: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
