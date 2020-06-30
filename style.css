@@ -1,0 +1,49 @@
+body, html {
+  min-height: 100vh;
+}
+
+.textcontainer {
+  margin: auto;
+  max-width: 960px;
+  padding: 32px;
+  font-size: 16px;
+}
+
+/* Custom background colors */
+
+.bg-black {
+  background-color: #16181a !important;
+}
+a.bg-black:focus, a.bg-black:hover, button.bg-black:focus, button.bg-black:hover {
+  background-color: #0a0c0e !important;
+}
+
+.bg-light-gray {
+  background-color: #e6eaf0 !important;
+}
+a.bg-light-gray:focus, a.bg-light-gray:hover, button.bg-light-gray:focus, button.bg-light-gray:hover {
+  background-color: #d0dfd7 !important;
+}
+
+.bg-translucent-white {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* Custom text colors */
+
+.text-light-blue {
+  color: #4fe3ff !important;
+}
+a.text-light-blue:focus, a.text-light-blue:hover {
+  color: #03b9ff !important;
+}
+
+/* Custom text environments */
+.centeredtitle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
