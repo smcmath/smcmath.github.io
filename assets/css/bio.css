@@ -26,8 +26,6 @@ Based on tiles from Phantom by HTML5 UP.
   }
 }
 
-
-
 .bio-square {
   padding-top: 90%;
   width: 90%;
@@ -45,6 +43,13 @@ Based on tiles from Phantom by HTML5 UP.
 }
 
 .bio-square:hover {
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 0%;
+  border-radius: 13.33px;
+}
+
+.bio-square:active {
   width: 100%;
   padding-top: 100%;
   margin-top: 0%;
@@ -69,6 +74,10 @@ Based on tiles from Phantom by HTML5 UP.
   top: 20%;
 }
 
+.bio-square:active > .bio-name {
+  top: 20%;
+}
+
 .bio-square .bio-title {
   top: 34%;
   width: 100%;
@@ -76,6 +85,10 @@ Based on tiles from Phantom by HTML5 UP.
 }
 
 .bio-square:hover > .bio-title {
+  visibility: visible;
+}
+
+.bio-square:active > .bio-title {
   visibility: visible;
 }
 
@@ -92,6 +105,10 @@ Based on tiles from Phantom by HTML5 UP.
   top: 17%;
 }
 
+.bio-square:active > .bio-name-high {
+  top: 17%;
+}
+
 .bio-square .bio-title-high {
   top: 29%;
   width: 100%;
@@ -99,6 +116,10 @@ Based on tiles from Phantom by HTML5 UP.
 }
 
 .bio-square:hover > .bio-title-high {
+  visibility: visible;
+}
+
+.bio-square:active > .bio-title-high {
   visibility: visible;
 }
 
@@ -124,6 +145,13 @@ Based on tiles from Phantom by HTML5 UP.
   width: 81%;
   left: 9.5%;
 }
+
+.bio-square:active > .bio-additional {
+  visibility: visible;
+  width: 81%;
+  left: 9.5%;
+}
+
 
 .bio-darkify {
   top: 0%;
