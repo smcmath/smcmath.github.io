@@ -50,6 +50,12 @@ a.text-light-blue:focus, a.text-light-blue:hover {
   line-height: 1.2;
 }
 
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 /* Custom background image */
 .bg-beach {
   background-image: url("../../upload/Beach.jpg");
