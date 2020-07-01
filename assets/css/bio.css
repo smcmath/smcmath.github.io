@@ -1,0 +1,118 @@
+/*
+CSS for biography squares
+Based on tiles from Phantom by HTML5 UP.
+*/
+
+.square {
+  padding-top: 90%;
+  width: 90%;
+  position: relative;
+  left: 50%;
+  top: 0%;
+  margin-top: 5%;
+  transform: translate(-50%, 0);
+  border-radius: 12px;
+  overflow: hidden;
+  opacity: 50%;
+  -moz-transition: width 0.5s ease, padding-top 0.5s ease, margin-top 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease;
+  -webkit-transition: width 0.5s ease, padding-top 0.5s ease, margin-top 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease;
+  -ms-transition: width 0.5s ease, padding-top 0.5s ease, margin-top 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease;
+  transition: width 0.5s ease, padding-top 0.5s ease, margin-top 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease;
+}
+
+.square:hover {
+  width: 100%;
+  padding-top: 100%;
+  margin-top: 0%;
+  border-radius: 13.33px;
+  opacity: 75%;
+}
+
+.square img {
+  width: 100%;
+  top: 0%;
+}
+
+.square .bio-name {
+  top: 30%;
+  width: 100%;
+  -moz-transition: top 0.5s ease;
+  -webkit-transition: top 0.5s ease;
+  -ms-transition: top 0.5s ease;
+  transition: top 0.5s ease;
+}
+
+.square:hover > .bio-name {
+  top: 20%;
+}
+
+.square .bio-title {
+  top: 34%;
+  width: 100%;
+  opacity: 0%;
+  -moz-transition: opacity 0.2s ease;
+  -webkit-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.square:hover > .bio-title {
+  opacity: 100%;
+}
+
+.square .bio-name-high {
+  top: 30%;
+  width: 100%;
+  -moz-transition: top 0.5s ease;
+  -webkit-transition: top 0.5s ease;
+  -ms-transition: top 0.5s ease;
+  transition: top 0.5s ease;
+}
+
+.square:hover > .bio-name-high {
+  top: 15%;
+}
+
+.square .bio-title-high {
+  top: 27%;
+  width: 100%;
+  opacity: 0%;
+  -moz-transition: opacity 0.2s ease;
+  -webkit-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.square:hover > .bio-title-high {
+  opacity: 100%;
+}
+
+
+.square .bio-additional {
+  top: 45%;
+  width: 90%;
+  left: 5%;
+  opacity: 0%;
+  font-size: 15px;
+  -moz-transition: opacity 0.2s ease, width 0.5s ease, left 0.5s ease;
+  -webkit-transition: opacity 0.2s ease, width 0.5s ease, left 0.5s ease;
+  -ms-transition: opacity 0.2s ease, width 0.5s ease, left 0.5s ease;
+  transition: opacity 0.2s ease, width 0.5s ease, left 0.5s ease;
+}
+
+.bio-additional > p {
+  margin: 5px 0px;
+}
+
+.square:hover > .bio-additional {
+  opacity: 100%;
+  width: 81%;
+  left: 9.5%;
+}
+
+.bio-darkify {
+  top: 0%;
+  width: 100%;
+  padding-top: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}

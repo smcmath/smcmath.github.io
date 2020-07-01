@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link type="text/css" rel="stylesheet" href="assets/css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/bio.css"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -18,10 +19,7 @@
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
-    <style>
-    </style>
-
-    <title>SMC Home</title>
+    <title>Ongoing SMC Contests</title>
   </head>
 
   <body>
@@ -36,54 +34,61 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active p-3"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item p-3"> <a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item p-3"> <a class="nav-link" href="format.html">Format</a></li>
-          <li class="nav-item p-3"> <a class="nav-link" href="ongoing.html">Ongoing</a></li>
+          <li class="nav-item p-3"> <a class="nav-link"  href="ongoing.html">Ongoing</a></li>
           <li class="nav-item p-3"> <a class="nav-link" href="archive.html">Archive</a></li>
           <li class="nav-item p-3"> <a class="nav-link" href="apply.html">Apply</a></li>
-          <li class="nav-item p-3"> <a class="nav-link" href="aboutus.html">About Us</a></li>
+          <li class="nav-item active p-3"> <a class="nav-link" href="aboutus.html">About Us <span class="sr-only">(current)</span></a></li>
         </ul>
       </div>
     </nav>
     <div class="wrapper">
-      <!-- Tropical Image-->
-      <div class="bg-beach"></div>
-
-      <!-- Main title -->
-      <div class="bg-transparent position-relative" style="height: min(100vh, 75vw);">
-        <span class="centeredtitle d-block d-xl-none" style="top:45%; width:100%;"><h1 class="display-1 text-center" style="font-size: 120px;">SMC</h1></span>
-        <span class="centeredtitle d-none d-xl-block" style="top:45%; width:100%; padding: 0px 200px;"><h1 class="display-1 text-center" style="font-size: 84px;">Summer Mathematics Competitions</h1></span>
-      </div>
-
       <!-- Main text portion -->
-      <div class="jumbotron bg-translucent-white m-0 p-0" style="min-height: 50vh;">
-        <!-- Yellow alert banner -->
-        <div class="bg-translucent-warning position-relative alert px-0">
-          <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 px-3" style="padding-top: 5px; padding-bottom: 5px;">
-            <p class="lead m-0"> <!-- Current contests -->
-              <strong><span class="text-danger">Notice:</span> The 2020 SMC takes place from July 10, 2020, to August 24, 2020. See the <a href="ongoing.html">Ongoing</a> page for more details.</strong>
-            </p>
-          </div>
-          <button type="button" class="close position-absolute" data-dismiss="alert" aria-label="Close" style="top: -5px; right: 2px;">
-            <span aria-hidden="true"><h1>×</h1></span>
-          </button>
-        </div>
-
-        <!-- Middle portion with text -->
+      <div class="jumbotron bg-white m-0 p-0" style="min-height: 100vh;">
+        <!-- Main portion with text-->
         <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-xs-12 p-3">
-          <h1 class="thin">Home</h1>
 
-          <p>
-            The Summer Mathematics Competitions is an annual online math contest held during the summer for all aspiring math enthusiasts. Consisting of one computational and two proof tests, it is designed to emulate the difficulty and exam format of the American Mathematics Competition series.
-          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="square">
+                <img src="upload/Test.png" alt="asdf" class="position-absolute">
+                <span class="text-light text-center position-absolute bio-name"><h3>Anthony Wang</h3></span>
+                <span class="text-light text-center position-absolute bio-title"><h5 class="thin"><i>Co-founder, Webmaster</i></h5></span>
+                <span class="text-light text-center position-absolute bio-additional">
+                  <p>Rising sophomore at Saratoga High School</p>
+                  <p>USAJMO qualifier</p>
+                  <p>USACO platinum</p>
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="square">
+                <img src="upload/Test.png" alt="asdf" class="position-absolute">
+                <span class="text-light text-center position-absolute bio-name"><h3>Andrew Wen</h3></span>
+                <span class="text-light text-center position-absolute bio-title"><h5 class="thin"><i>Co-founder, Lead Problem Writer</i></h5></span>
+                <span class="text-light text-center position-absolute bio-additional">
+                  <p>Rising sophomore at Phillips Academy Andover</p>
+                  <p>Two-time USAJMO qualifier</p>
+                  <p>CMO, APMO, Canada IMO TST Competitor</p>
+                </span>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+              <div class="square">
+                <img src="upload/William_Yue.jpg" alt="asdf" class="position-absolute">
+                <div class="bio-darkify position-absolute"></div>
+                <span class="text-light text-center position-absolute bio-name-high"><h4>William Yue</h4></span>
+                <span class="text-light text-center position-absolute bio-title-high"><h5 class="thin"><i>Co-founder, Lead Grader, <br> Outreach Manager</i></h5></span>
+                <span class="text-light text-center position-absolute bio-additional">
+                  <p>Rising junior at Phillips Academy Andover</p>
+                  <p>Perfect score on the 2020 USOJMO</p>
+                  <p>MOP Qualifier</p>
+                </span>
+              </div>
+            </div>
+          </div>
 
-          <p>
-            The SMC strives to promote mathematical interest in students of all ages, especially those in high school, by providing a fun and fair competition experience. In order to help participants improve their mathematical ability, we release rigorously detailed solutions packets and also provide feedback for the two proof contests.
-          </p>
-
-          <p>
-            See <a href="format.html">Format</a> for more information about the competition.
-          </p>
         </div>
       </div>
 
