@@ -4,6 +4,18 @@ body, html {
   font-weight: 360;
 }
 
+.text-container {
+  max-width: 1088px;
+  padding: 20px;
+  margin: auto;
+}
+
+hr {
+  background-color: #777;
+  border-color: #777;
+  color: #777;
+}
+
 /* Custom background colors */
 
 .bg-black {
@@ -81,7 +93,7 @@ a.text-light-blue:focus, a.text-light-blue:hover {
 }
 
 .display-5 {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-weight: 300;
   line-height: 1.2;
 }
