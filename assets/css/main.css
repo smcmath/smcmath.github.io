@@ -1,5 +1,7 @@
 body, html {
   min-height: 100vh;
+  font-size: 16.8px;
+  font-weight: 360;
 }
 
 /* Custom background colors */
@@ -22,9 +24,37 @@ a.bg-light-gray:focus, a.bg-light-gray:hover, button.bg-light-gray:focus, button
   background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
-.bg-translucent-warning {
-  background-color: rgba(255, 193, 7, 0.7) !important;
+.bg-translucent-danger {
+  background-color: rgba(220, 53, 69, 0.7) !important;
 }
+
+/* The special summer color */
+
+.bg-summer {
+  background-color: #f2f012 !important;
+}
+a.bg-summer:focus, a.bg-summer:hover, button.bg-summer:focus, button.bg-summer:hover {
+  background-color: #f7c21e !important;
+}
+.bg-translucent-summer {
+  background-color: rgba(242, 240, 18, 0.7) !important;
+}
+.text-summer {
+  color: #f2f012 !important
+}
+a.text-summer:focus, a.text-summer:hover {
+  color: #f7c21e !important
+}
+.text-dark-summer {
+  color: #f0d912 !important
+}
+a.text-dark-summer:focus, a.text-dark-summer:hover {
+  color: #f0b523 !important
+}
+.text-translucent-summer {
+  color: rgba(242, 240, 18, 0.7) !important;
+}
+
 
 /* Custom text colors */
 
