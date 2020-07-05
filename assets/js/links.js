@@ -14,7 +14,7 @@ var links = `<script
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous">
     </script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <link
       rel="stylesheet"
@@ -28,6 +28,3 @@ var links = `<script
     >`;
 
 document.write(links);
-
-console.log(`string text line 1
-string text line 2`);
