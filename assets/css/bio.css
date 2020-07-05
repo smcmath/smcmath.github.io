@@ -5,7 +5,13 @@ Based on tiles from Phantom by HTML5 UP.
 
 .bio-row {
   width: 100%;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
   display: flex;
+  -moz-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 

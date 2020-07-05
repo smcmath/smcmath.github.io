@@ -1,0 +1,74 @@
+/*
+Custom background image and arrow
+*/
+
+.headerimage-beach {
+  background-image: url("../../upload/Beach.jpg");
+  width: 100% !important;
+  height: 75vw !important;
+  margins: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.headerimage-circle {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  border-radius: 3rem;
+  left: 50%;
+  bottom: 2rem;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  /*text-shadow: -1px 0 rgba(0, 0, 0, 0.8), 0 1px rgba(0, 0, 0, 0.8), 1px 0 rgba(0, 0, 0, 0.8), 0 -1px rgba(0, 0, 0, 0.8);*/
+  background-color: rgba(0, 0, 0, 0.05);;
+  box-shadow: inset 0 0 0 2.5px #343a40;
+  -moz-transition: box-shadow 0.25s ease;
+  -webkit-transition: box-shadow 0.25s ease;
+  -ms-transition: box-shadow 0.25s ease;
+  transition: box-shadow 0.25s ease;
+}
+
+.headerimage-arrow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #343a40;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -moz-transition: color 0.25s ease;
+  -webkit-transition: color 0.25s ease;
+  -ms-transition: color 0.25s ease;
+  transition: color 0.25s ease;
+}
+
+.headerimage-circle:hover {
+  box-shadow: inset 0 0 0 2.5px #f7c21e !important;
+}
+
+.headerimage-circle:hover > .headerimage-arrow {
+  color: #f7c21e !important;
+}
+
+.headerimage-fakepadding {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  height: 92px; /* exact height of the navbar */
+}
