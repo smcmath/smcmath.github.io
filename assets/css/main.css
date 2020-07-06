@@ -11,6 +11,11 @@ body, html {
   margin: auto;
 }
 
+.navbar {
+  position: fixed !important;
+  width: 100%;
+}
+
 hr {
   background-color: #777;
   border-color: #777;
