@@ -59,11 +59,11 @@ Custom background image and arrow
 }
 
 .headerimage-circle:hover {
-  box-shadow: inset 0 0 0 2.5px #f2ea12 !important;
+  box-shadow: inset 0 0 0 2.5px var(--summer) !important;
 }
 
 .headerimage-circle:hover > .headerimage-arrow {
-  color: #f2ea12 !important;
+  color: var(--summer) !important;
 }
 
 .headerimage-fakepadding {

@@ -31,7 +31,7 @@ Based on tiles from Tessellate by HTML5 UP.
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   /*text-shadow: -1px 0 rgba(0, 0, 0, 0.8), 0 1px rgba(0, 0, 0, 0.8), 1px 0 rgba(0, 0, 0, 0.8), 0 -1px rgba(0, 0, 0, 0.8);*/
-  background-color: rgba(0, 0, 0, 0.05);;
+  background-color: rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.8);
 }
 

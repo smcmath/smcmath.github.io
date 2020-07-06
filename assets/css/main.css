@@ -1,3 +1,11 @@
+:root {
+  --summer: #f2f012;
+  --summer-translucent: rgba(242, 240, 18, 0.7);
+  --summer-sun: #f7c21e;
+  --summer-dark: #f0d912;
+  --summer-sun-dark: #f0b523;
+}
+
 body, html {
   min-height: 100vh;
   font-size: 16.8px;
@@ -53,28 +61,28 @@ a.bg-light-gray:focus, a.bg-light-gray:hover, button.bg-light-gray:focus, button
 /* The special summer color */
 
 .bg-summer {
-  background-color: #f2f012 !important;
+  background-color: var(--summer) !important;
 }
 a.bg-summer:focus, a.bg-summer:hover, button.bg-summer:focus, button.bg-summer:hover {
-  background-color: #f7c21e !important;
+  background-color: var(--summer-sun) !important;
 }
 .bg-translucent-summer {
-  background-color: rgba(242, 240, 18, 0.7) !important;
+  background-color: var(--summer-translucent) !important;
 }
 .text-summer {
-  color: #f2f012 !important
+  color: var(--summer) !important
 }
 a.text-summer:focus, a.text-summer:hover {
-  color: #f7c21e !important
+  color: var(--summer-sun) !important
 }
 .text-dark-summer {
-  color: #f0d912 !important
+  color: var(--summer-dark) !important
 }
 a.text-dark-summer:focus, a.text-dark-summer:hover {
-  color: #f0b523 !important
+  color: var(--summer-sun-dark) !important
 }
 .text-translucent-summer {
-  color: rgba(242, 240, 18, 0.7) !important;
+  color: var(--summer-translucent) !important;
 }
 
 
