@@ -16,6 +16,10 @@ body, html {
   width: 100%;
 }
 
+.wrapper {
+  margin-top: 92px; /* exact height of the navbar */
+}
+
 hr {
   background-color: #777;
   border-color: #777;
