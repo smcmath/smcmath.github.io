@@ -13,6 +13,10 @@ body, html {
   scroll-behavior: smooth;
 }
 
+html, body.os-host > .os-padding > .os-viewport {
+    scroll-behavior: smooth
+}
+
 .text-container {
   max-width: 1088px;
   padding: 20px;

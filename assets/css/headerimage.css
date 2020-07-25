@@ -6,7 +6,7 @@ Custom background image and arrow
   background-image: url("../../upload/Beach.jpg");
   width: 100% !important;
   height: 75vw !important;
-  margins: auto;
+  margin: auto;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
